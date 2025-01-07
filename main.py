@@ -1,2 +1,2 @@
-def square_digits (num):
-	return int(''.join([str(int(n) ** 2) for n in str(num)]))
+def is_square (n):
+	return True if n > -1 and n**0.5 == int(n**0.5) else False
